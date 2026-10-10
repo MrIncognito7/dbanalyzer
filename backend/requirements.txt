@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn>=0.34
+python-dotenv>=1.0
+langgraph>=0.2.69
+langchain>=0.3.16
+langchain-community>=0.3.16
+langchain-google-genai>=2.0
+SQLAlchemy>=2.0

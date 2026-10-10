@@ -1,0 +1,60 @@
+# ============================================================
+# Secrets: NEVER commit these. Only the *.example files are safe.
+# ============================================================
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+*.pem
+*.key
+secrets/
+
+# ============================================================
+# Python (backend)
+# ============================================================
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# Local databases (recreated with sample data on first start)
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Node (frontend)
+# ============================================================
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# Logs, archives, OS and editor files
+# ============================================================
+*.log
+logs/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
