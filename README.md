@@ -1,4 +1,4 @@
-# DB Chatbot: Chat with Your SQLite Database
+# DB Analyzer: Chat with Your SQLite Database
 
 Ask questions about a database in plain English. A **LangGraph** agent powered by
 **Google Gemini** writes the SQL, runs it **read-only** against SQLite, and explains the result.
@@ -52,7 +52,8 @@ Create one at <https://aistudio.google.com/apikey>.
 ### 2. Backend
 
 ```bash
-cd DBChatbot/backend
+git clone https://github.com/MrIncognito7/dbanalyzer.git
+cd dbanalyzer/backend
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
